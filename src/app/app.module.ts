@@ -4,15 +4,34 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+
+import { RouterModule, Routes } from '@angular/router';
+import { DashboardHeaderComponent } from './dashboard-header/dashboard-header.component';
+
+const appRoutings: Routes = [
+  {
+    path: 'login', component: LoginComponent
+  }, {
+    path: 'signup', component: SignupComponent
+  }, {
+    path: '', redirectTo: 'login', pathMatch: 'full'
+  }
+]
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    SignupComponent,
+    DashboardHeaderComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot(appRoutings)
   ],
   providers: [],
   bootstrap: [AppComponent]
