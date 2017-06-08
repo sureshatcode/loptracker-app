@@ -23,8 +23,6 @@ before_install:
     - "npm install -g npm@^2"
 
 before_script:
-- npm install -g angular-cli
-- npm install -g karma
+- npm install -g
 - npm install
 - ng build
-- ng test
