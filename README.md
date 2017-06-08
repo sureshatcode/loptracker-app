@@ -1,4 +1,4 @@
-# loptracker-app [!Build Status(https://travis-ci.org/sureshatcode/loptracker-app.svg?branch=master)(https://travis-ci.org/sureshatcode/loptracker-app)]
+# loptracker-app [![Build Status](https://travis-ci.org/sureshatcode/loptracker-app.svg?branch=master)](https://travis-ci.org/sureshatcode/loptracker-app)
 
 Loss Of Pay Tracker App
 
