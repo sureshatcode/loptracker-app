@@ -3,8 +3,8 @@ dist: trusty
 language: node_js
 node_js:
   - "7"
-notifications:
-   slack: loptracker:EVAw1XP4Iul0F7Np7ffmTh7B
 branches:
   only:
   - master
+notifications:
+  slack: sureshatcode:61gIfHI2bZVtZw3vwyaD50pg
